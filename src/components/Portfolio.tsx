@@ -12,36 +12,36 @@ const Portfolio = () => {
       category: "iOS",
       description:
         "Empower your health with our VaThala app; Facilitating scheduled connections between qualified healthcare professionals and users in need. Enjoy affordable, at home healthcare, ensuring comfort, tracking and convenience at every step.",
-      image: "",
-    },
+        image: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/0c/a1/7f0ca108-d8d6-6b0f-6946-ccaccff8ea58/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/434x0w.webp",
+      },
     {
       title: "VaThala Health Expert",
       category: "iOS",
       description:
         "Grow your practice on VaThala at ease with the ‘VaThala Health Expert’ app. VaThala partnered doctors use this app to carry out their activities and manage their practice on the go.",
-      image: "bg-gradient-to-br from-green-500/20 to-teal-400/20",
-    },
+        image: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/76/d0/c276d005-56b1-1fa2-0063-84b29188b684/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/434x0w.webp",
+      },
 
     {
       title: "VaThala",
       category: "Android",
       description:
         "Empower your health with our VaThala app; Facilitating scheduled connections between qualified healthcare professionals and users in need. Enjoy affordable, at home healthcare, ensuring comfort, tracking and convenience at every step.",
-      image: "",
-    },
+        image: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/0c/a1/7f0ca108-d8d6-6b0f-6946-ccaccff8ea58/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/434x0w.webp",
+      },
     {
       title: "VaThala Health Expert",
       category: "Android",
       description:
         "Grow your practice on VaThala at ease with the ‘VaThala Health Expert’ app. VaThala partnered doctors use this app to carry out their activities and manage their practice on the go.",
-      image: "bg-gradient-to-br from-green-500/20 to-teal-400/20",
+      image: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/76/d0/c276d005-56b1-1fa2-0063-84b29188b684/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/434x0w.webp",
     },
     {
       title: "Tamil Bible RC - Arulvakku",
       category: "Cross-Platform",
       description:
         "Arulvakku is the first in the internet media that serves the Tamil speaking Christian community across the world, by giving Holy Bible online, Online Radio and Online Bible Study..",
-      image: "bg-gradient-to-br from-yellow-500/20 to-amber-400/20",
+      image: "https://play-lh.googleusercontent.com/234bvhUz4o46uUPIoGXl6gaDSpiJWCKTksxr3kQyvJS9fkGH2BvdLpVn8PDUrWqoudk=s96-rw",
     },
   ];
 
@@ -87,24 +87,15 @@ const Portfolio = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div
-                className={`aspect-video rounded-lg mb-4 ${project.image} flex items-center justify-center overflow-hidden relative`}
+                className={`aspect-video rounded-lg mb-4 flex items-center justify-center overflow-hidden relative portfolio-project-bg`}
+                style={{ backgroundImage: `url(${project.image})` }}
               >
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                   <div className="p-3 bg-white rounded-full shadow-md transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
                     <ExternalLink className="h-5 w-5 text-primary" />
                   </div>
                 </div>
-
-                <div className="w-20 h-40 bg-white/80 rounded-2xl shadow-md">
-                  <div className="w-full h-full p-2 flex flex-col">
-                    <div className="h-1/3 border-b border-gray-100 flex justify-center items-center">
-                      <div className="w-8 h-2 bg-gray-200 rounded-full"></div>
-                    </div>
-                    <div className="h-2/3 flex items-center justify-center">
-                      <div className="w-10 h-10 rounded-full bg-secondary"></div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
 
               <div>

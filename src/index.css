@@ -103,3 +103,9 @@
 .animate-delay-500 {
   animation-delay: 500ms;
 }
+
+.portfolio-project-bg{
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
